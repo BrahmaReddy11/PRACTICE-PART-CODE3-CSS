@@ -1,0 +1,15 @@
+p{
+    color: rgba(7, 69, 56, 0.845);
+    font-size: 25px;
+    background-color: rgb(98, 234, 209);
+}
+.class1{
+    color: inheritance;
+    font-size: inheritance;
+    background-color: inheritance;
+}
+#id1{
+    color: rgb(10, 113, 24);
+    font-size: 35px;
+    background-color: rgb(231, 208, 208);
+}
