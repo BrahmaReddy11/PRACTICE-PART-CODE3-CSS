@@ -1,0 +1,45 @@
+/* Has Attribute */
+a[href] {
+  color: blue;
+}
+
+/* Exact Math */
+a[href="https://exampleTwo2.com/page"] {
+  color: rgb(22, 211, 195);
+}
+
+/* Contains Word */
+a[class~="btn"] {
+  font-weight: bold;
+  color: rgba(217, 191, 143, 0.806);
+}
+
+/* Starts With */
+a[id^="Starts"] {
+  color: green;
+}
+
+/* Ends with ($=) */
+a[id$="World1"] {
+  text-decoration: underline;
+  color: rgb(192, 179, 38);
+}
+
+/* Contains (*=) */
+a[id*="Three"]{
+    color: rgb(171, 199, 14);
+    font-size: 20px;
+}
+
+/* Hyphen-Separator (|=) */
+a[lang|="ENGINDIA"]{
+    color: rgb(21, 221, 224);
+}
+
+/* Combining Multiple Attributes */
+a[href="example3"][class="Attributes1"]{
+    color: rgb(210, 116, 21);
+}
+a[href="example1"][class="Attributes"]{
+    color: rgb(210, 116, 21);
+}
