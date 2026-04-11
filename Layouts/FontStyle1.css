@@ -1,0 +1,36 @@
+.Hello1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.Hello2{
+    font-size: 35px;
+}
+.Hello3{
+    font-weight: bold;
+}
+.Hello4{
+    font-style: italic;
+}
+.Hello5{
+    color: rgb(20, 206, 206);
+}
+.Hello6{
+    text-transform: uppercase;
+}
+.Hello7{
+    /* Here you can give fullName "eg: dotted underline" then only it will works otherwise it won't work */
+    /* Means if you want to give simple like this "dotted" it won't give any "text-decoration" on the "Style Tag" (or) css file */
+    /* So, becarefull while giving the text-decoration style */
+    text-decoration: dotted underline;
+}
+.Hello8{
+    font-variant: small-caps;
+}
+.Hello9{
+    line-height: 10;
+}
+.Hello10{
+    letter-spacing: 15px;
+}
+.Hello11{
+    word-spacing: 55px;
+}
