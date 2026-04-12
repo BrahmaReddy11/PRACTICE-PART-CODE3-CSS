@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textlayout</title>
+</head>
+<body>
+    <div>
+        <!-- p.Hello55{text-align}+p.Hello56{line-height}+p.Hello57{letter-spacing}+p.Hello58{word-spacing}+p.Hello59{text-indent}+p.Hello60{white-space}+p.Hello61{text-overflow}+p.Hello62{vertical-align} -->
+        <p class="Hello55">text-align</p>
+        <p class="Hello56">line-height</p>
+        <p class="Hello57">letter-spacing</p>
+        <p class="Hello58">word-spacing word spacing</p>
+        <p class="Hello59">text-indent</p>
+        <p class="Hello59A">text-indent <mark> ("Text indent with CSS styling")</mark></p>
+        <hr>
+        <hr>
+        <p class="Hello60">white-space</p>
+        <center>
+            <u>
+                <h2>Normal</h2>
+                <p><mark>But this "overflow: hidden" and "text-overflow: ellipsis" is not happened because it is a table</mark></p>
+            </u>
+        </center>
+        <table height="190px" width="200px" border="5px">
+            <tr>
+                <td>
+                    <p class="Hello60A">It can fix how much width and height we can give, dependent upon the width and height it/ the words can fix into the box means width and height after fit the words into the width and height well if the words are fix into the how much width and height we can given it's look good otherwise if extra words are present/ remaining they are overflow out of the width and height .</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <center>
+            <u>
+                <h2>NoWrap</h2>
+            </u>
+        </center>
+        <table height="100px" width="300px" border="5px">
+            <tr>
+                <td>
+                    <p class="Hello60B">white-space, Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iusto obcaecati delectus est. Ex tempora totam eveniet placeat dolor explicabo ipsa blanditiis quaerat reiciendis dignissimos. Nemo itaque animi architecto dolorum!</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <center>
+            <u>
+                <h2>pre (Preserves spaces and line breaks (like <pre> tag).) </h2>
+                    <p>Means what are the properties can applied on previous/ before that can be that can be applied here also</p>
+            </u>
+        </center>
+        <table height="150px" width="300px" border="5px">
+            <tr>
+                <td>
+                    <p class="Hello60C">white-space, Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iusto obcaecati delectus est. Ex tempora totam eveniet placeat dolor explicabo ipsa blanditiis quaerat reiciendis dignissimos. Nemo itaque animi architecto dolorum!</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <center>
+            <u>
+                <h2>pre-wrap</h2>
+            </u>
+        </center>
+        <table height="200px" width="500px" border="5px">
+            <tr>
+                <td>
+                    <p class="Hello60D">white-space, Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iusto obcaecati delectus est. Ex tempora totam eveniet placeat dolor explicabo ipsa blanditiis quaerat reiciendis dignissimos. Nemo itaque animi architecto dolorum!</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <center>
+            <u>
+                <h2>pre-line</h2>
+                <p>Removes extra spaces but keeps line breaks</p>
+            </u>
+        </center>
+        <table height="100px" width="300px" border="5px">
+            <tr>
+                <td>
+                    <p class="Hello60X">Remove         extra           spaces      and     keep        single     much        space       between(b/w)         word to word</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <hr>
+        <hr>
+
+        <!-- Method 2 -->
+         <center><h1><u><b>**********Method 2***********</b></u></h1></center>
+         <center><h2><u>Normal</u></h2></center>
+        <p class="Hello60X1">It can fix how much width and height we can give, dependent upon the width and height it/ the words can fix into the box means width and height after fit the words into the width and height well if the words are fix into the how much width and height we can given it's look good otherwise if extra words are present/ remaining they are overflow out of the width and height .</p>
+        <hr>
+        <center><h2><u>nowrap</u></h2></center>
+        <p class="Hello60X2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat velit quisquam eaque id eos distinctio. Corrupti iure quisquam tempore magni repudiandae vero, optio tempora culpa laborum ratione aliquid? Deserunt, quam!</p>
+        
+        <hr>
+        <center><h2><u>pre</u></h2></center>
+        <p class="Hello60X3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat velit quisquam eaque id eos distinctio. Corrupti iure quisquam tempore magni repudiandae vero, optio tempora culpa laborum ratione aliquid? Deserunt, quam!</p>
+        <hr>
+        <center><h2><u>pre-wrap</u></h2></center>
+        <p class="Hello60X4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat velit quisquam eaque id eos distinctio. Corrupti iure quisquam tempore magni repudiandae vero, optio tempora culpa laborum ratione aliquid? Deserunt, quam!</p>
+        <hr>
+        <center><h2><u>pre-line</u></h2></center>
+        <p class="Hello60X5">Remove         extra           spaces      and     keep        single     much        space       between(b/w)         word to word</p>
+        <hr>
+        <hr>
+        <center>
+            <h2><u>text-overflow</u></h2>
+        </center>
+        <p class="Hello61">text-overflow</p>
+        <br>
+        <center>
+            <h2><u>overflow: hidden</u></h2>
+        </center>
+        <p class="Hello61X1">when we use "overflow: hidden" it's hides the what are the content outside/ out of the block that content are hidden, but it sill shows some incomplete content into the box .</p>
+        <br>
+        
+        <center>
+            <h2><u>overflow: hidden and text-overflow: ellipsis</u></h2>
+        </center>
+        <p class="Hello61X2">when we use "overflow: hidden" it's hides the what are the content outside/ out of the block that condent are hidden, but it sill shows some incomplete content into the box .to over come this problem we can use "text over-flow: ellipsis", it is also shows the same word (like: overflow: hidden" but it covers the "Dots(...) to the insufficient word into the box .</p>
+        <br>
+        
+        <hr>
+        <hr>
+        <p>Used with inline or table-cell elements.<mark>but it is used only the spam tag / element</mark></p>
+        <p class="Hello62"><span></span>vertical-align</p>
+        <link rel="stylesheet" href="Textlayout1.css">
+        
+    </div>
+</body>
+</html>

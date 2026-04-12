@@ -1,0 +1,24 @@
+.justifycontent1{
+    display: flex;
+    justify-content: flex-start;
+}
+.justifycontent2{
+    display: flex;
+    justify-content: flex-end;
+}
+.justifycontent3{
+    display: flex;
+    justify-content: center;
+}
+.justifycontent4{
+    display: flex;
+    justify-content: space-between;
+}
+.justifycontent5{
+    display: flex;
+    justify-content: space-around;
+}
+.justifycontent6{
+    display: flex;
+    justify-content: space-evenly;
+}
