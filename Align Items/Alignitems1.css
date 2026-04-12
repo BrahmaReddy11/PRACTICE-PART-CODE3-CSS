@@ -43,4 +43,6 @@
     width: 300px;
     height: 100px;
     border: 3px dashed orange;
+    display: flex;
+    flex-direction: column;
 }
