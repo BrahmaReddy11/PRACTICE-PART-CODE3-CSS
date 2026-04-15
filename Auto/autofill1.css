@@ -1,0 +1,13 @@
+.autofill1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    border: 5px solid sandybrown;
+    gap: 10px;
+    padding: 10px;
+}
+.autofill2{
+    display: grid;
+    background-color: rgb(58, 241, 247);
+    border: 5px solid rgb(3, 203, 110);
+    padding: 10px;
+}

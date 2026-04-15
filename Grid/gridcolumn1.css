@@ -1,0 +1,21 @@
+.gridcol1{
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: 100px 300px;
+    border: 5px solid rgb(243, 250, 110);
+    gap: 10px;
+    padding: 10px;
+}
+.gridcol2, .gridcol3, .gridcol4, .gridcol5{
+    display: grid;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+}
+.gridcol6{
+    display: grid;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/3;
+}
