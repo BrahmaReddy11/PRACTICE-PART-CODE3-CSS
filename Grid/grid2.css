@@ -1,0 +1,30 @@
+.grid1{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 200px 300px;
+    border: 5px solid tan;
+    gap: 10px;
+    padding: 10px;
+}
+.grid2{
+    background-color: rgb(95, 180, 255);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    /* grid-column: 1/5; */
+}
+.grid3{
+    background-color: rgb(54, 150, 235);
+    
+}
+.grid4{
+    background-color: rgb(84, 114, 141);
+    
+}
+.grid5{
+    background-color: rgb(6, 143, 202);
+    grid-column: 3/5;
+}
+.grid6{
+    background-color: rgb(164, 14, 234);
+    grid-column: 1/5;
+}
