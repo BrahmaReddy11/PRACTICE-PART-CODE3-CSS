@@ -1,0 +1,44 @@
+.allcolors1{
+    display: grid;
+    grid-template-columns: 150px 200px;
+    grid-template-rows: 200px 250px;
+    border: 5px solid powderblue;
+    padding: 10px; 
+    gap: 10px;
+}
+.RGB{
+    display: grid;
+    background-color: rgb(218, 201, 50);
+    justify-content: center;
+    align-items: center;
+}
+.RGBA{
+    display: grid;
+    background-color: rgba(90, 164, 1, 0.29);
+    justify-content: center;
+    align-items: center;
+}
+.HSL{
+    display: grid;
+    background-color: hsl(106, 93%, 34%);
+    justify-content: center;
+    align-items: center;
+}
+.HSLA{
+    display: grid;
+    background-color: rgba(3, 107, 34, 0.242);
+    justify-content: center;
+    align-items: center;
+}
+.COLORKEYWORDS1{
+    display: grid;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+.COLORKEYWORDS2{
+    display: grid;
+    background-color: salmon;
+    justify-content: center;
+    align-items: center;
+}

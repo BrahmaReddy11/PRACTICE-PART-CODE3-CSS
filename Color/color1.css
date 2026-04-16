@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 100px 200px;
     grid-template-rows: 200px 250px;
-    border: 5px solid darkblue;
+    border: 5px solid rgba(0, 0, 139, 0.861);
     gap: 10px;
     padding: 10px;
 }
