@@ -1,0 +1,23 @@
+.media1{
+    border: 9px solid rgb(241, 222, 48);
+    padding: 10px;
+}
+@media(min-width: 900px){
+    h1, p{
+            background-color: rgb(106, 216, 22);
+            font-size: 2rem;
+        }
+        body{
+            background-color: rgb(126, 226, 226);
+        }
+}
+@media(max-width: 800px){
+    h1, p{
+            background-color: rgb(242, 255, 64);
+            font-size: 1rem;
+        }
+    body{
+        background-color: rgb(41, 187, 197);
+    }
+    
+}

@@ -1,0 +1,18 @@
+.rem1{
+    border: 5px solid gray;
+    background-color: burlywood;
+    padding: 1rem; /*16px*/
+    display: flex;
+    gap: 10px;
+    
+}
+.rem2{
+    width: 9rem;
+    height: 9rem;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(237, 251, 38);
+}
