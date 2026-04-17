@@ -1,0 +1,40 @@
+.media1{
+    background-color: paleturquoise;
+    border: 5px dashed gray;
+}
+@media (min-width: 400px) and (max-width: 550px){
+    h1{
+        border: 5px dashed rgb(85, 149, 2);
+        background-color: rgb(232, 240, 222);
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        color: orangered;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    p{
+        background-color: rgb(104, 235, 239);
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 2px dotted lightslategrey;
+    }
+}
+@media (min-width: 550px) and (max-width: 900px){
+    h1{
+        border: 5px dashed rgb(1, 147, 94);
+        background-color: rgb(159, 221, 235);
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        color: rgb(245, 245, 245);
+        padding: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p{
+        background-color: rgb(48, 236, 242);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid gray;
+        padding: 10px;
+    }
+}
