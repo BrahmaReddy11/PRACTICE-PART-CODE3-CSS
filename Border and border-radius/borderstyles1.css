@@ -1,0 +1,46 @@
+.border1{
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: 200px 250px;
+    gap: 10px;
+    justify-content: center;
+}
+.bordertop1{
+    border-top: 8px dashed rgb(5, 90, 201);
+    background-color: rgb(33, 228, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(90, 60, 87);
+    font-size: 25px;
+    
+}
+.borderbottom1{
+    border-bottom: 8px dashed rgb(2, 89, 113);
+    background-color: rgb(28, 223, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(143, 7, 170);
+    font-size: 25px;
+}
+.borderleft1{
+    border-left: 8px dashed rgb(5, 90, 201);
+    background-color: rgb(92, 190, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(22, 68, 175);
+    font-size: 25px;
+    
+}
+.borderright1{
+    border-right: 8px dashed rgb(2, 89, 113);
+    background-color: rgb(44, 210, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 236, 28);
+    
+    font-size: 25px;
+}

@@ -1,0 +1,40 @@
+.radius1{
+    background-color: rgb(84, 221, 219);
+    padding: 10px; 
+    
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.radius2{
+    background-color: rgb(7, 174, 143);
+    margin: 20px;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px dashed rgba(243, 236, 46, 0.833);
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(7, 104, 89, 0.842);
+   
+}
+.radius3{
+    background-color: rgb(0, 128, 171);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px dashed rgba(243, 236, 46, 0.833);
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(16, 236, 211, 0.884);
+    
+}
