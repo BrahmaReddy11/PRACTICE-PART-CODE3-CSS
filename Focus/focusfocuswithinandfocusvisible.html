@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>focus focus-within and focus-visible</title>
+</head>
+<body>
+    <div class="container">
+        <h1>:focus, :focus-within and :focus-visible</h1>
+        <p>Focus indicators play a crucial role in providing visible feedback to user(s) when interacting with different elements on a webpage .</p>
+
+        <form action="local">
+            
+            <div>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" placeholder="Your name">
+            </div>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" placeholder="Your email address">
+            </div>
+            <div>
+                <label for="Message">Message:</label>
+                <textarea type="text" name="Message" id="Message" placeholder="Your Message"></textarea>
+            </div>
+            <p><u>border outline: whenever we can give the positive value like "+10px" the border line will appear/ forms outside of the border and you can give your own "outline: properties"</u></p>
+            
+            <div>
+                <label for="Name">Outline:</label>
+                <input type="text" id="outline" placeholder="Your name">
+            </div>
+            <p><u>border outline: whenever we can give the negative value like "-10px" the border line will appear/ forms inside the border and and you can give your own "outline: properties"</u></p>
+            <div>
+                <label for="Name">Inline:</label>
+                <input type="text" id="inline" placeholder="Your name">
+            </div>
+            <div>
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <link rel="stylesheet" href="focusfocuswithinandfocusvisible.css">
+</body>
+</html>

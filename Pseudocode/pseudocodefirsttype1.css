@@ -1,0 +1,60 @@
+.firstchild1>h4:first-of-type{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightpink;
+    color: blueviolet;
+    padding: 10px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+
+}
+.secondchild2>h5:first-of-type{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightpink;
+    color: blueviolet;
+    padding: 10px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+
+}
+p:first-of-type{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightpink;
+    color: blueviolet;
+    padding: 10px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+
+}
+.thirdchild3>h3:first-of-type{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightpink;
+    color: blueviolet;
+    padding: 10px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+
+}
+.thirdchild4>h2:first-of-type{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightpink;
+    color: blueviolet;
+    padding: 10px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+
+}

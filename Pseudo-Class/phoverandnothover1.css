@@ -1,0 +1,33 @@
+.hover1{
+    background-color: rgb(247, 250, 230);
+    border: 15px groove rgb(73, 142, 134);
+    padding: 30px;
+    border-radius: 10px;
+}
+.hover1:not(:hover) {
+    background-color: rgb(81, 209, 190);
+    border: 10px solid rgb(0, 167, 0);
+    padding: 30px;
+}
+.hover2{
+    background-color: rgb(65, 185, 232);
+    padding: 25px;
+    color: aliceblue;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 5px 1px rgb(188, 216, 25);
+    border-radius: 20px;
+    
+   
+}
+.hover2:not(:hover) {
+    background-color: rgb(204, 236, 25);
+    padding: 25px;
+    color: rgb(20, 82, 109);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 9px 9px 1px rgb(20, 137, 180);
+    border-radius: 10px;
+}

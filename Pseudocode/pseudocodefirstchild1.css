@@ -1,0 +1,20 @@
+.firstchild1:first-child{
+    background-color: rgb(2, 113, 144);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(254, 5, 238);
+    border: 5px dashed rgb(234, 250, 0);
+    border-radius: 10px;
+}
+.firstchild2>p:first-child{
+    background-color: rgb(2, 130, 124);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(0, 208, 255);
+    border: 5px dashed rgb(234, 250, 0);
+    border-radius: 10px;
+}

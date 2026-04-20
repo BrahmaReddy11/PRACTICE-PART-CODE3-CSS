@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* img{
+    max-width: 100%;
+} */
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    /* line-height: 55px; */
+    color: rgb(252, 236, 9);
+    background-color: cadetblue;
+    border-top: 5px groove chartreuse;
+    padding: 20px; 
+}
+h1{
+    font-size: 30px;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+form{
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lightblue;
+}
+form>div{
+    padding: 10px;
+}
+label{
+    display: block;
+    margin: 5px;
+
+}
+input, textarea{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    width: 500px;
+}
+#submit{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    background-color: beige;
+
+}
+
+/* input:focus, textarea:focus, #submit:focus{
+    outline: none;
+} */
+
+/* input:focus, textarea:focus, #submit:focus{
+    outline: none;
+    border: 5px groove cadetblue;
+} */
+
+/* input:focus, textarea:focus, #submit:focus{
+    outline: 2px inset orange;
+} */
+
+
+/* input:focus, textarea:focus, #submit:focus{
+    outline: thin inset orange;
+} */
+
+/* input:focus, textarea:focus, #submit:focus{
+    outline: thick inset orange;
+} */
+
+/* input:focus, textarea:focus, #submit:focus{
+    outline: medium inset orange;
+} */
+
+
+/* positive value shows the border outside the element */
+/* input:focus, textarea:focus, #submit:focus{
+    outline: 5px dashed rgb(4, 133, 253);
+    outline-offset: 4px; 
+}  */
+
+
+/* where as negative value gives/ shows the border inside the element */
+/* input:focus, textarea:focus, #submit:focus{
+    outline: 5px outset orange;
+    outline-offset: -5px; 
+
+} */
+
+/* #outline:focus{
+    outline: 5px dashed rgb(2, 132, 253);
+    outline-offset: 10px;
+} */
+
+/* #inline:focus{
+    outline: 5px dashed rgb(2, 132, 253);
+    outline-offset: -10px;
+} */
+
+/* form:focus-within{
+    outline: 5px dashed gainsboro;
+    outline-offset: 10px;
+    background-color: rgb(32, 244, 244);
+} */
+
+/* form:focus-within, input:focus-visible, textarea:focus-within{
+    outline: 5px dashed gainsboro;
+    outline-offset: 10px;
+    background-color: rgb(57, 155, 224);
+} */
+
+form:focus-visible, input:focus-visible, #submit:focus-visible{
+    outline: 5px dashed gainsboro;
+    outline-offset: 10px;
+    background-color: rgb(4, 247, 255);
+}

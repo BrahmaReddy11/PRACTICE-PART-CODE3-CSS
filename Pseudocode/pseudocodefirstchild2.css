@@ -1,0 +1,60 @@
+.firstchild1>p:first-child{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightpink;
+    color: blueviolet;
+    padding: 10px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+
+}
+.secondchild2>p:first-child{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightpink;
+    color: blueviolet;
+    padding: 10px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+
+}
+p:first-child{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightpink;
+    color: blueviolet;
+    padding: 10px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+
+}
+.thirdchild3>p:first-child{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightpink;
+    color: blueviolet;
+    padding: 10px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+
+}
+.thirdchild4>p:first-child{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: lightpink;
+    color: blueviolet;
+    padding: 10px;
+    outline: 2px dashed gray;
+    outline-offset: 5px;
+
+}
