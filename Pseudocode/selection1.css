@@ -1,0 +1,14 @@
+.main{
+    background-color: rgb(108, 176, 236);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 5px groove rgb(229, 218, 8);
+}
+p{
+    font-size: 25px;
+}
+p::selection{
+    background-color: rgb(245, 154, 42);
+    color: honeydew;
+}

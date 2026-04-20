@@ -1,0 +1,23 @@
+.main{
+    background-color: rgb(225, 210, 153);
+    display: block;
+    padding: 10px;
+}
+
+h2{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(73, 51, 212);
+}
+p{
+    background-color: coral;
+    color: rgb(73, 51, 212);
+    padding: 20px;
+    font-size: 20px;
+}
+p::first-letter{
+    font-size: 55px;
+    color: rgb(73, 51, 212);
+}
