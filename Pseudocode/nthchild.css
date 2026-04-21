@@ -32,6 +32,7 @@ li:nth-child(n) {
 } */
 
 /* it works only one child is present inside the div element/ element */
+
 ol:only-child{
-    background-color: rgb(61, 187, 236);
+    background-color: rgb(20, 108, 143);
 }
