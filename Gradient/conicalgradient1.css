@@ -1,0 +1,10 @@
+.conical1{
+    width: 400px;
+    height: 300px;
+    background: conic-gradient(orange, purple, green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(7, 201, 255);
+}

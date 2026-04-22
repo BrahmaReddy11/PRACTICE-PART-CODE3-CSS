@@ -1,0 +1,27 @@
+.main{
+    background-color: rgb(219, 202, 214);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.scale1{
+    background-color: cadetblue;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease;
+
+}
+.scale1:hover{
+    /* background-color: rgb(168, 151, 2); */
+    width: 300px;
+    height: 200px;
+    transform: scale(1);
+    background:  conic-gradient(rgb(201, 201, 67) 0% 20%, rgb(124, 124, 225) 20% 40%, rgb(68, 207, 68) 40% 60%, rgb(32, 139, 181) 60% 80%, cyan 80% 100%);
+    font-size: 35px;
+    color: rgb(31, 6, 46);
+}

@@ -1,0 +1,96 @@
+.main{
+    background-color: lavender;
+    padding: 10px;
+    border: 5px groove cadetblue;
+}
+.linear1{
+    width: 200px;
+    height:50px;
+    background-color: rgb(214, 22, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 2s linear, width 2s linear, border-radius 2s linear, border 2s linear;
+}
+.linear1:hover{
+    background-color: rgb(90, 178, 229);
+    width: 800px;
+    border-radius: 10px;
+    border: 5px inset rgb(192, 223, 15);
+    font-size: 25px;
+    color: gold;
+    cursor: pointer;
+    
+}
+.ease1{
+    width: 200px;
+    height:50px;
+    background-color: rgb(4, 168, 108);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 2s ease, width 2s ease, border-radius 2s ease, border 2s ease;
+}
+.ease1:hover{
+    background-color: rgb(29, 228, 235);
+    width: 1100px;
+    border-radius: 10px;
+    border: 5px outset rgb(11, 196, 119);
+    font-size: 25px;
+    color: rgb(53, 14, 192);
+    cursor: pointer;
+}
+.easein1{
+    width: 200px;
+    height:50px;
+    background-color: rgb(141, 3, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 2s ease-in, width 2s ease-in, border-radius 2s ease-in, border 2s ease-in;
+}
+.easein1:hover{
+    background-color: rgb(8, 182, 188);
+    width: 800px;
+    border-radius: 10px;
+    border: 5px outset rgb(175, 4, 121);
+    font-size: 25px;
+    color: gold;
+    cursor: pointer;
+}
+.easeout1{
+    width: 200px;
+    height:50px;
+    background-color: rgb(14, 245, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 2s ease-out, width 2s ease-out, border-radius 2s ease-out, border 2s ease-out;
+}
+.easeout1:hover{
+    background-color: rgb(29, 228, 235);
+    width: 1100px;
+    border-radius: 10px;
+    border: 5px outset rgb(192, 223, 15);
+    font-size: 25px;
+    color: rgb(6, 52, 179);
+    cursor: pointer;
+}
+.easeinout1{
+    width: 200px;
+    height:50px;
+    background-color: rgb(241, 20, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 2s ease-in-out, width 2s ease-in-out, border-radius 2s ease-in-out, border 2s ease-in-out;
+}
+.easeinout1:hover{
+    background-color: rgb(27, 210, 216);
+    width: 800px;
+    border-radius: 10px;
+    border: 5px inset rgb(192, 223, 15);
+    font-size: 25px;
+    color: gold;
+    cursor: pointer;
+}

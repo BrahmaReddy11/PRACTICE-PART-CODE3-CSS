@@ -1,0 +1,48 @@
+.main{
+    background-color: rgb(176, 228, 211);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cb1{
+    background-color: rgba(252, 248, 1, 0.811);
+    padding: 20px;
+    color: rgba(5, 72, 240, 0.811);
+    border: 5px inset rgb(4, 214, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 2s ease, width 3s ease;
+    width: 200px;
+    height: 50px;
+
+}
+.cb1:hover{
+    background-color: rgb(13, 222, 222);
+    width: 500px;
+    border: 5px outset cadetblue;
+    cursor: pointer;
+    
+}
+.cb2{
+    background-color: rgba(252, 248, 1, 0.811);
+    padding: 20px;
+    color: rgba(5, 72, 240, 0.811);
+    border: 5px inset rgb(4, 214, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 2s ease, width 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    width: 200px;
+    height: 50px;
+
+}
+.cb2:hover{
+    background-color: rgb(13, 222, 222);
+    width: 500px;
+    border: 5px outset cadetblue;
+    cursor: pointer;
+}

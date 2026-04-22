@@ -1,0 +1,27 @@
+.linear{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(228, 169, 60), rgb(21, 181, 234), rgb(3, 253, 165));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.linear2{
+    width: 500px;
+    height: 200px;
+    background: repeating-linear-gradient(45deg,rgb(228, 169, 60) 0px 20px, rgb(21, 181, 234) 20px 40px, rgb(3, 253, 165) 40px 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.linear3{
+    width: 500px;
+    height: 200px;
+    background: repeating-linear-gradient(45deg,rgb(228, 169, 60) 0px 20px, rgb(21, 181, 234) 20px 40px, rgb(3, 253, 165) 40px 60px, #7f7feb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

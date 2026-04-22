@@ -1,0 +1,18 @@
+.linear{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(228, 169, 60), rgb(21, 181, 234), rgb(3, 253, 165));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.linear2{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to bottom, rgb(228, 169, 60) 0% 20%, rgb(21, 181, 234) 20% 60%, rgb(3, 253, 165) 60% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,0 +1,92 @@
+.main{
+    background-color: rgb(243, 243, 159);
+    padding: 10px;
+}
+.radial1{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, orange, rgb(22, 183, 237), rgb(5, 232, 118));
+}
+.radial2{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at bottom, orange, rgb(22, 183, 237), rgb(5, 232, 118));
+}
+.radial3{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 80% 20%, orange, rgb(22, 183, 237), rgb(5, 232, 118));
+}
+.radial4{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(closest-side at 100px 100px, orange, rgb(22, 183, 237), rgb(5, 232, 118));
+}
+.radial5{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(closest-corner at 100px 100px, orange, rgb(22, 183, 237), rgb(5, 232, 118));
+}
+.radial6{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(farthest-corner at 100px 100px, orange, rgb(22, 183, 237), rgb(5, 232, 118));
+}
+.radial7{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(farthest-corner at 100px 100px, orange 20%, rgb(22, 183, 237) 40%, rgb(5, 232, 118) 60%);
+}
+.radial8{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: repeating-radial-gradient(farthest-corner at 100px 100px, orange 20%, rgb(22, 183, 237) 40%, rgb(5, 232, 118) 60%);
+}
+.radial9{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: repeating-radial-gradient(circle, orange 20%, rgb(22, 183, 237) 40%, rgb(5, 232, 118) 60%);
+}
+.radial10{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: repeating-radial-gradient(circle, orange 0% 20%, rgb(22, 183, 237) 20% 40%, rgb(5, 232, 118) 40% 60%);
+}
+.radial11{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: repeating-radial-gradient(circle, orange 0% 20%, rgb(22, 183, 237) 20% 40%, rgb(5, 232, 118) 40% 60%, orange);
+}

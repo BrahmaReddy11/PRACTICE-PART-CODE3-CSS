@@ -1,0 +1,42 @@
+.main{
+    background-color: cornsilk;
+    padding: 20px;
+    border: 5px inset purple;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.gradient1{
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(green, rgb(6, 193, 40), purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: aliceblue;
+}
+.gradient2{
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(green 0% 25%, rgb(6, 193, 40) 25% 62%, purple 62% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: aliceblue;
+    border-radius: 25px;
+}
+.gradient3{
+    width: 300px;
+    height: 300px;
+    background: conic-gradient(green 0% 25%, rgb(6, 193, 40) 25% 50%, purple 50% 75%, rgb(200, 194, 150) 75% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: aliceblue;
+    border-radius: 50%;
+}

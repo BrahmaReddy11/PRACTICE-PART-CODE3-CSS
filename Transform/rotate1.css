@@ -1,0 +1,106 @@
+.main{
+    background-color: rgb(133, 225, 248);
+    padding: 20px;
+    
+}
+.rotate1{
+    background-color: rgb(216, 231, 228);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    border-radius: 10px;
+    border: 5px groove orange;
+    margin: 10px;
+
+}
+.rotate1:hover{
+    background-color: rgb(44, 194, 174);
+    overflow: hidden;
+    transform: rotate(180deg);
+    cursor: pointer;
+
+    
+}
+.rotate2{
+    background-color: rgb(216, 231, 228);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    border-radius: 10px;
+    border: 5px groove orange;
+    margin: 10px;
+
+}
+.rotate2:hover{
+    background-color: rgb(188, 206, 108);
+    overflow: hidden;
+    transform: rotateX(180deg);
+    cursor: pointer;
+
+}
+.rotate3{
+    background-color: rgb(216, 231, 228);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    border-radius: 10px;
+    border: 5px groove orange;
+    margin: 10px;
+
+}
+.rotate3:hover{
+    background-color: rgb(190, 39, 182);
+    overflow: hidden;
+    transform: rotateY(180deg);
+    cursor: pointer;
+
+}
+.rotate4{
+    background-color: rgb(216, 231, 228);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    border-radius: 10px;
+    border: 5px groove orange;
+    margin: 10px;
+
+}
+.rotate4:hover{
+    background-color: rgb(253, 3, 253);
+    overflow: hidden;
+    transform: rotateZ(90deg);
+    cursor: pointer;
+
+}
+.rotate5{
+    background-color: rgb(216, 231, 228);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    border-radius: 10px;
+    border: 5px groove orange;
+    margin: 10px;
+
+}
+.rotate5:hover{
+    background-color: rgb(124, 215, 225);
+    overflow: hidden;
+    transform: rotate3d(1, 1, 1, 360deg);
+    cursor: pointer;
+
+}
